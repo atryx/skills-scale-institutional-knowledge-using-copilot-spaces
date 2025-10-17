@@ -110,8 +110,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 Use this matrix to clarify who is Responsible, Accountable, Consulted, and Informed for key activities:
 
-| Activity | Developer | PM | PdM | UX | DevOps | BA | QA |
-|----------|-----------|----|----|-------|--------|----|----|
+| Activity | Dev | PM | PdM | UX | DevOps | BA | QA |
+|----------|-----|----|----|-------|--------|----|----|
 | Code implementation | R | I | I | C | C | C | I |
 | Design implementation | R | I | I | A | I | I | I |
 | Requirements clarification | C | I | C | I | I | R/A | I |
