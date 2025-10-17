@@ -38,3 +38,85 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Role handoff procedures documented and communicated
+
+## Role-Specific Execution Handoffs
+
+### During Implementation
+
+#### Business Analyst → Developers
+**When:** Before starting work on a user story
+- [ ] Business Analyst confirms story is ready with complete acceptance criteria
+- [ ] Developers ask clarifying questions about requirements
+- [ ] Business Analyst available for ongoing requirement clarifications
+- [ ] Definition of Done includes business acceptance validation
+
+#### UX Designer → Developers
+**When:** Design is complete and ready for implementation
+- [ ] Design specifications finalized and shared (Figma, Sketch, etc.)
+- [ ] Design assets exported and accessible
+- [ ] Design review meeting held to walk through implementation details
+- [ ] UX Designer available for implementation questions
+- [ ] Design QA checkpoint scheduled after initial implementation
+
+#### Developers → QA/Testing
+**When:** Feature implementation complete and ready for testing
+- [ ] PR merged and deployed to test environment
+- [ ] Test cases documented or updated
+- [ ] Known limitations or edge cases communicated
+- [ ] Demo of feature provided to QA if needed
+- [ ] Bug fix workflow and priority agreed
+
+#### Developers → DevOps Engineer
+**When:** New infrastructure or deployment changes needed
+- [ ] Infrastructure requirements documented
+- [ ] Configuration changes specified
+- [ ] Deployment dependencies identified
+- [ ] Testing in staging environment completed
+- [ ] Rollback plan agreed
+
+#### QA/Testing → Product Manager
+**When:** Feature testing complete
+- [ ] All acceptance criteria verified
+- [ ] Test results documented
+- [ ] Known issues logged with severity
+- [ ] Product Manager reviews and approves for release
+
+### Communication Checkpoints During Execution
+
+#### Daily Standup Participation
+- **Required:** Developers, Project Manager
+- **As needed:** UX Designer, DevOps Engineer, Business Analyst, QA
+- **Focus:** Progress, blockers, immediate coordination needs
+
+#### Weekly Delivery Sync
+- **Required:** All core team members
+- **Agenda:** 
+  - Progress vs. plan review
+  - Upcoming work and dependencies
+  - Risk and blocker escalation
+  - Cross-role coordination needs
+
+#### Sprint/Milestone Demo
+- **Required:** All team members, key stakeholders
+- **Format:**
+  - Business Analyst: Validates business requirements met
+  - Developers: Demonstrate functionality
+  - UX Designer: Validates design implementation
+  - DevOps Engineer: Confirms deployment readiness
+  - Product Manager: Approves or requests changes
+
+## Accountability Matrix (RACI)
+
+Use this matrix to clarify who is Responsible, Accountable, Consulted, and Informed for key activities:
+
+| Activity | Dev | PM | PdM | UX | DevOps | BA | QA |
+|----------|-----|----|----|-------|--------|----|----|
+| Code implementation | R | I | I | C | C | C | I |
+| Design implementation | R | I | I | A | I | I | I |
+| Requirements clarification | C | I | C | I | I | R/A | I |
+| CI/CD pipeline | C | I | I | I | R/A | I | C |
+| Release decision | I | C | R/A | C | C | C | C |
+| Acceptance testing | C | I | C | C | I | C | R/A |
+
+**Legend:** R = Responsible (does the work), A = Accountable (final approval), C = Consulted (input sought), I = Informed (kept updated)

@@ -32,12 +32,58 @@ Whenever a new project idea or feature proposal is ready to be explored.
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
 - [ ] Sponsor / Stakeholder alignment (email or meeting)
+- [ ] Business Analyst: Requirements workshop completed and documented
+- [ ] UX Designer: Initial user research findings reviewed (if applicable)
+- [ ] DevOps Engineer: Infrastructure and deployment considerations assessed
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
+
+## Role-Specific Handoff Checklist
+
+### Business Analyst → Product Manager
+- [ ] Business requirements document completed
+- [ ] Stakeholder priorities documented
+- [ ] Success metrics and ROI analysis provided
+- [ ] Handoff meeting scheduled to review requirements
+
+### Product Manager → Project Manager
+- [ ] Product vision and goals communicated
+- [ ] Initial scope and priorities defined
+- [ ] Key stakeholders identified with contact info
+- [ ] Strategic constraints and dependencies noted
+
+### UX Designer → Product Manager & Developers
+- [ ] User research findings shared (if available at this stage)
+- [ ] Design constraints or considerations documented
+- [ ] Preliminary design direction discussed
+
+### DevOps Engineer → Project Manager
+- [ ] Infrastructure requirements and constraints identified
+- [ ] Deployment approach and timeline considerations shared
+- [ ] Security and compliance requirements noted
 
 ## Decision Gate
 Move to planning when:
 - Success metrics are clear
 - Stakeholders agree on priority
 - Team availability is confirmed
+- All role-specific handoffs completed
+
+## Decision Log Template
+Track key decisions made during initiation to maintain accountability and context.
+
+| Date | Decision | Rationale | Owner | Stakeholders Consulted |
+|------|----------|-----------|-------|------------------------|
+| YYYY-MM-DD | [Decision made] | [Why this was chosen] | [Name] | [Names/Roles] |
+
+**Example:**
+| Date | Decision | Rationale | Owner | Stakeholders Consulted |
+|------|----------|-----------|-------|------------------------|
+| 2024-10-01 | Use React for UI | Team expertise, component library availability | Tech Lead | UX Designer, Product Manager |
+
+## Stakeholder Review Points
+Key moments where stakeholder sign-off is required:
+1. **Initial Approval**: After one-pager is drafted (Product Lead + Sponsor)
+2. **Requirements Sign-off**: After Business Analyst completes requirements (Key Stakeholders)
+3. **Go/No-Go Decision**: Before moving to planning phase (Sponsor + Product Lead + Project Manager)
